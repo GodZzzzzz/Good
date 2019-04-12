@@ -1,0 +1,33 @@
+package String;
+
+import java.util.Arrays;
+
+public class Good
+{
+    
+	
+	public static void main(String[] args)
+	{
+		String MyName="ZhouZiYi";
+		String College="CQUPT";
+		String Major="software engineering";
+		String Class="13061804";
+		String time="22:04:33";
+		
+	
+		System.out.println("我的名是："+MyName.substring(4));
+		System.out.println(College.toLowerCase()+"是我的学校");
+		
+		String[] arr=Major.split(" ");
+		System.out.println("软件工程？->"+Arrays.toString(arr));
+		
+		System.out.println("班级代码的长度是:"+Class.length());
+	    time.substring(1, 2);
+	    System.out.println("现在是："+time.substring(1, 2)+"时");
+		
+		
+		
+	}
+
+}
+
